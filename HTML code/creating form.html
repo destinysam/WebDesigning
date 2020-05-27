@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>creating form using html</title>
+</head>
+<body bgcolor="navy blue">
+	<form name="survey form" method="post">
+		<h1 align="center"><b>Survey Form</b></h1>
+		first name<input type="text" name="firstname" size="10" maxlength="100" />
+		last name <input type="text" name="lastname" size="10" maxlength="100" /><br />
+	          choose your password <input type="password" name="password" size="10" maxlength="100" /> <br />
+	          <p>please choose your gender:</p>
+	          <input type="radio" name="gender" value="male" checked="checked" />male
+	          <input type="radio" name="gender" value="female" />female
+	          <input type="radio" name="gender" value="other" />other
+	          <br />
+	          <p>read our terms and conditions:
+	          	<br />
+	                   <input type="checkbox" name="terms and conditions" value="agree" checked="checked" />agree
+	          </p>         
+	          <p>please select your device which are u using:</p>
+	          <select name="devices">
+	          	<option value="redmi">redmi</option>
+	          	<option value="oppo">oppo</option>
+	          	<option value="samsung">samsung</option>
+	          </select>
+	          <p>upload your photo:</p>
+	          <input type="file" name="documents" /><br />
+	          <input type="submit" value="upload" /><br />
+	          <p>type your e-mail here so that we will notify you everytime :</p>
+	          <input type="text" name="e-mail" />
+	          <input type="submit" name="subscribe" value="subscribe" /><br />
+		 <textarea name="comments" cols="30" rows="10">type your comment...</textarea>
+		 <fieldset bgcolor="green">
+		 	<legend>contact details :</legend>
+		 	<label>Email :<br />
+		 		<input type="text" name="e-mail"></label><br />
+		 		<label>Mobile no:<br />
+		 			<input type="text" name="Mobile"></label><br />
+		 			<label>Telephone no:<br />
+		 				<input type="text" name="telephone"></label><br />
+		 </fieldset>
+
+	</form>
+
+</body>
+</html>

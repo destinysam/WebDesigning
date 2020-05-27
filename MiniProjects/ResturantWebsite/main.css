@@ -1,0 +1,319 @@
+body {
+  margin: 0;
+  font-family: 'Noto Serif JP', serif;
+}
+.main-menu #imge{
+	position: absolute;
+	left: 0%;
+	top: 0%;
+}
+/*START BACKGROUND*/
+.background_image
+{
+	background-image: url("Image/backgroundimage.jpg");
+	background-color: rgb(218,165,32);
+  	height: 670px;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+}
+/*END BACKGROUND*/
+/*HOME -TEXT*/
+.background_image .home-text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	font-size: 30px;
+	font-family: all;
+	color: white;
+	transform: translate(-50%,-50%);
+}
+.background_image .home-text p{
+	word-spacing: 1em;
+}
+.background_image .home-text a{
+	margin-top: 1rem;
+	padding: 18px 24px;
+	background-color: green;
+	color: white;
+	border: none;
+	border-radius: 5rem;
+	font-size: 20px;
+	font-family: all;
+	text-decoration: none;
+}
+.background_image .home-text a:hover{
+	background-color: white;
+	color: black;
+}
+/*HOME TEXT ENDED*/
+/*NAVIGATION BAR*/
+.main-menu
+{
+	overflow: hidden;
+	background:black;
+	position: static;
+}
+.main-menu a
+{
+	float: left;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 1rem;
+	color: white;
+	word-spacing: 0.13em;
+	text-decoration: none;
+}
+.main-menu .Home
+{
+	background-color: green;
+	margin-left: 56rem;
+}
+.main-menu a:hover{
+	background-color: white;
+	color: black;
+}
+/*NAVIGATION BAR END*/
+/*DROP DOWN*/
+.dropdown{
+	overflow: hidden;
+	float: right;
+	margin-right: 2rem;
+}
+.dropdown .drop-button{
+	float:none;
+	font-size: 16px;  
+  	border: none;
+  	outline: none;
+  	color: white;
+  	padding: 14px 16px;
+  	background-color: inherit;
+  	font-family: inherit;
+  	margin: 0;
+}
+.drop-down-list {
+	display: none;
+  	position: absolute;
+  	/*background-color: #f1f1f1;*/
+  	min-width: 30px;
+  	/*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+  	z-index: 1;
+}
+.drop-down-list a{
+	float: none;
+	color: black;
+	background-color: white;
+  	padding: 10px 12px;
+  	text-decoration: none;
+  	display: block;
+  	text-align: left;
+}
+.dropdown:hover .drop-down-list {
+  display: block;
+}
+.drop-down-list a{
+	background-color: #ddd;
+}
+#book-table
+{
+	position: absolute;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: white;
+	top: 25%;
+	left: 80%;
+	font-size: 25px;
+	text-decoration: none;
+	font-family: aakar;
+}
+#book-table:hover{
+	background-color: rgb(139,69,19);
+}
+/*DROP DOWN END*/
+/*RIGHT SIDE IMAGES*/
+.images img
+{
+	margin: 0rem;
+	margin-left: 52rem;
+	margin-top: 1rem;
+	border: none;
+	border-radius: 20px;
+}
+.images .small-image img{
+	margin-left: 34rem;
+	margin-top: 0rem;
+}
+.images .pop-corn img{
+	position: absolute;
+	top: 75rem;	
+	margin-top: 1rem;
+	margin-left: 60rem;
+	margin-right: 1rem;
+}	
+/*RIGHT SIDE IMAGES END*/
+/*LEFT SIDE TEXT AREA*/
+.left-text .burger{
+	position: absolute;
+	top: 45rem;
+	margin-left: 2rem;
+}
+.left-text .text{
+	position: absolute;
+	top: 45rem;
+	margin-left: 6rem;
+	font-size: 35px;
+	font-family: aakar;
+	font-style: normal;
+}
+ .text .small-text{
+	font-family: ;
+	font-style: normal;
+	font-size: 20px;
+}.left-text .food{
+	position: absolute;
+	top: 70rem;
+	margin-left: 6rem;
+}.left-text .food li{
+	margin-top: 50px;
+	list-style: none; 
+}
+.left-text .food span{
+	color: #DB9A64;
+	padding: 0px 0px 0px 14px;
+	font:16px;
+}
+.left-text .pizza img{
+	margin-top: 1rem;
+	margin-left: 6rem;
+}
+/*MENU AREA*/
+.MenuArea h1, h2{
+	/*position: absolute;*/
+	/*left: 50%;*/
+	margin: 20px;
+	text-align: center;
+	font-family: all;
+	font-style: normal;
+	font-size: 40px;
+}
+.MenuArea h2{
+	color: rgb(72,61,139);
+	font-size: 50px;
+}
+.MenuArea img{
+	margin-left: 35rem;
+}
+.MenuArea h3{
+	margin: 0px;
+	margin-left: 36rem;
+	font-size: 30px;
+	font-family: all;
+	color: green;
+}
+/*products area*/
+.productname{
+	margin-right: auto;
+	margin-left: auto;
+	display: inline;
+}
+.product
+{
+	float: left;
+	width: 22.50%;
+	margin-top: 4rem;
+	margin-right: -8%;
+	margin-left: 8%;
+}
+.productname h3
+{
+	background-color: green;
+	color: white;
+	width: 47%;
+	margin-right: auto;
+	margin-left: auto;
+	margin: 20px;
+	padding: .6rem;
+	font-size: 25px;
+	font-family: aakar;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+}
+.product h3:hover
+{
+	background-color: black;
+	color: white;
+}
+.product span{
+	color:#DB9A64;
+	font-size:25px;
+}
+.footer{
+	width: 100%;
+	background-color: #212529;
+	padding:100px 0px;
+	margin-top: 30rem; 
+	margin-left: 0rem;
+	margin-right: 0rem;
+}
+.footer-logo img{
+	margin-left:6rem;
+}
+.list .ordered-list{
+	margin-left: 4rem;
+	color: white;
+	font-family: all;
+	font-size: 20px;
+	list-style: none;
+	line-height: 1.50em;
+}
+.footer .menu-list1{
+	position: absolute;
+	top: 159rem;
+	margin-left: 30rem;
+	text-decoration: none;
+	color: white;
+	font-family: all;
+	font-size: 20px;
+	line-height: 1.75em;
+}
+.footer h3{
+	position: absolute;
+	top: 160rem;
+	left: 45rem;
+	color: white;
+	font-family: all;
+	font-size: 20px; 
+}
+ .footer form{
+	position: absolute;
+	top: 165rem;
+	left: 45rem;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding: .2rem;
+	border: none;
+	border-radius: 2rem;
+	outline: none;
+}
+.footer form button{
+	margin-right: 3rem;
+	padding: 12px 16px;
+	background-color: green;
+	font-family: all;
+	font-size: 20px;
+	border: none;
+	border-radius: 2rem;
+	color: white;
+}
+@media screen and(max-width: 700px)
+{
+	.product{
+		width: 100%;
+		float: none;
+		height: auto;
+	}
+}

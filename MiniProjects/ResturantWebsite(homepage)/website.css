@@ -1,0 +1,556 @@
+#header
+{
+	position: absolute;
+	height: 60px;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: rgb(20, 20, 20);
+}
+#menu
+{
+	position: absolute;
+	top: 25px;
+	left: 350px;
+	letter-spacing: 0.37em;
+	color: #90887c;
+	font-size: 20px;
+	font-family: aakar;
+}
+#varieties
+{
+	position: absolute;
+	top: 25px;
+	left: 480px;
+	letter-spacing: 0.37em;
+	color: #90887c;
+	font-size: 20px;
+	font-family: aakar;
+}
+#order-now
+{
+	position: absolute;
+	top: 25px;
+	left: 690px;
+	letter-spacing: 0.37em;
+	color: #90887c;
+	font-size: 20px;
+	font-family: aakar;
+}
+#Signup
+{
+	position: absolute;
+	top: 15px;
+	left: 1020px;
+	height: 25px;
+	width: 80px;
+	border: ridge;
+	border-radius: 15px;
+	background-color: rgb(50, 50, 50);
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	font-family: aakar;
+	padding-top: 5px;
+	padding-bottom: 0px;
+}
+#logout
+{
+	position: absolute;
+	top: 15px;
+	left: 1150px;
+	height: 25px;
+	width: 80px;
+	border: ridge;
+	border-radius: 15px;
+	background-color: rgb(50, 50, 50);
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	font-family: aakar;
+	padding-top: 5px;
+	padding-bottom: 0px;
+}
+#pasta
+{
+	position: absolute;
+	top: 60px;
+	left: 0px;
+}
+#pizza
+{
+	position: absolute;
+	top: 560px;
+	left: 0px;
+	height: 700px;
+         width: 100%;
+}
+#burger
+{
+	position: absolute;
+	top: 1150px;
+	left: 0px;
+	height: 500px;
+	width: 100%;
+}
+#sandwich
+{
+	position: absolute;
+	top: 1750px;
+	left: 0px;
+	height: 500px;
+	width: 100%;
+}
+#black
+{
+	position: absolute;
+	top: 2350px;
+	left: 0px;
+	height: 300px;
+	width: 100%;
+}
+#quote
+{
+	position: absolute;
+	top: 530px;
+	left: 30px;
+	color: rgb(255,255,255);
+	height: 200px;
+	width: 450px;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.13em;
+	font-family: "Knockout 47 A", "Knockout 47 B";
+}
+#vegpizza
+{
+	position: absolute;
+	top: 700px;
+	left: 140px;
+	color: #660000;
+	height: 50px;
+	width: 150px;
+	font-family: aakar;
+	font-style: bold;
+	font-size: 35px;
+}
+#nonvegpizza
+{
+	position: absolute;
+	top: 700px;
+	left: 950px;
+	color: #660000;
+	height: 50px;
+	width: 250px;
+	font-family: aakar;
+	font-style: bold;
+	font-size: 35px;
+}
+#pizzaname1
+{
+	position: absolute;
+	top:750px;
+	left: 145px;
+	border: ridge;
+	border-radius: 15px;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #886735;
+	color: #FFFFFF;
+	font-family: aakar; 
+	font-style: bold;
+	font-size: 20px;
+}
+#pizzaname2
+{
+	position: absolute;
+	top:810px;
+	left: 145px;
+	border: ridge;
+	border-radius: 15px;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #886735;
+	color: #FFFFFF;
+	font-family: aakar; 
+	font-style: bold;
+	font-size: 20px;
+}
+#pizzaname3
+{
+	position: absolute;
+	top:870px;
+	left: 145px;
+	border: ridge;
+	border-radius: 15px;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #886735;
+	color: #FFFFFF;
+	font-family: aakar; 
+	font-style: bold;
+	font-size: 20px;
+}
+#pizzaname4
+{
+	position: absolute;
+	top:930px;
+	left: 145px;
+	border: ridge;
+	border-radius: 15px;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #886735;
+	color: #FFFFFF;
+	font-family: aakar; 
+	font-style: bold;
+	font-size: 20px;
+}
+#pizzaname5
+{
+	position: absolute;
+	top:750px;
+	left: 950px;
+	border: ridge;
+	border-radius: 15px;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #886735;
+	color: #FFFFFF;
+	font-family: aakar; 
+	font-style: bold;
+	font-size: 20px;
+}
+#pizzaname6
+{
+	position: absolute;
+	top:810px;
+	left: 950px;
+	border: ridge;
+	border-radius: 15px;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #886735;
+	color: #FFFFFF;
+	font-family: aakar; 
+	font-style: bold;
+	font-size: 20px;
+}
+#pizzaname7
+{
+	position: absolute;
+	top:870px;
+	left: 950px;
+	border: ridge;
+	border-radius: 15px;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #886735;
+	color: #FFFFFF;
+	font-family: aakar; 
+	font-style: bold;
+	font-size: 20px;
+}
+#pizzaname8
+{
+	position: absolute;
+	top:930px;
+	left: 950px;
+	border: ridge;
+	border-radius: 15px;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #886735;
+	color: #FFFFFF;
+	font-family: aakar; 
+	font-style: bold;
+	font-size: 20px;
+
+}
+#pizzaprice
+{
+	position: absolute;
+	top: 670px;
+	left: 0px;
+	height: 50px;
+	width: 1280px;
+	font-family: aakar;
+	font-style: italic;
+	font-size: 25px;
+	background-color: #FFFFFF
+	color: #0000FF;
+}
+#burgerquote
+{
+	position: absolute;
+	top: 1120px;
+	left: 80px;
+	font-family: 'Satisfy',cursive;
+	font-style: italic;
+	font-size: 25px;
+	font-style: uppercase;
+	letter-spacing: 0.13em;
+	color: rgb(255,165,0);
+}
+#marquee
+{
+	position: absolute;
+	top: 1220px;
+	left: 0px;
+	height: 50px;
+	width:1280px;
+	font-family: 'Satisfy',cursive;
+	font-style: italic;
+	font-size: 25px;
+	font-style: uppercase;
+	letter-spacing: 0.13em;
+	/*background-color: black;*/
+	color: rgb(255,165,0);
+
+}
+#order_now
+{
+	position: absolute;
+	top: 1280px;
+	left: 450px;
+	height: 40px;
+	width: 180px;
+	border: transparent;
+	border-radius: 10px;
+	padding-top: 10px; 
+	padding-left: 7px;
+	padding-bottom: 0px;
+	text-align: center;
+	padding-right: 5px;
+	background-color: rgb(220,20,60);
+	font-family: 'Satisfy',cursive;
+	font-style: normal;
+	font-size: 25px;
+	letter-spacing: 0.13em;
+	color: rgb(255,165,0);
+}
+#burger1
+{
+	position: absolute;
+	top: 1350px;
+	left: 450px;
+	height: 40px;
+	width: 120px;
+	text-align: center;
+	border: ridge;
+	border-radius: 20px;
+	padding-bottom: 0px;
+	padding-top: 10px;
+	background-color: #886755;
+	font-family: 'Satisfy',cursive;
+	font-style: normal;
+	font-size: 20px;
+	color: rgb(255,255,255);
+}
+#burger2
+{
+	position: absolute;
+	top: 1420px;
+	left: 550px;
+	height: 50px;
+	width: 110px;
+	padding-top: 5px;
+	text-align: center;
+	border: ridge;
+	border-radius: 20px;
+	background-color: #886755;
+	font-family: 'Satisfy',cursive;
+	font-style: normal;
+	font-size: 20px;
+	color: rgb(255,255,255);
+}
+#burger3
+{
+	position: absolute;
+	top: 1500px;
+	left: 450px;
+	height: 50px;
+	width: 140px;
+	text-align: center;
+	border: ridge;
+	border-radius: 20px;
+	background-color: #886755;
+	font-family: 'Satisfy',cursive;
+	font-style: normal;
+	font-size: 20px;
+	color: rgb(255,255,255);
+}
+#burger4
+{
+	position: absolute;
+	top: 1570px;
+	left: 550px;
+	height: 50px;
+	width: 120px;
+	text-align: center;
+	border: ridge;
+	border-radius: 20px;
+	background-color: #886755;
+	font-family: 'Satisfy',cursive;
+	font-style: normal;
+	font-size: 20px;
+	color: rgb(255,255,255);
+}
+#burger5
+{
+	position: absolute;
+	top: 1640px;
+	left: 450px;
+	height: 40px;
+	width: 120px;
+	text-align: center;
+	border: ridge;
+	border-radius: 20px;
+	padding-top: 10px;
+	background-color: #886755;
+	font-family: 'Satisfy',cursive;
+	font-style: normal;
+	font-size: 20px;
+	color: rgb(255,255,255);
+}
+#sandwichquote
+{
+	position: absolute;
+	top: 1750px;
+	left: 120px;
+	height: 50px;
+	width: 600px;
+	font-family: Noto Sans CJK HK;
+	font-style: italic,bold;
+	font-size: 45px;
+	letter-spacing: 0.13em;
+	color: #228B22;
+}
+#sandwich1
+{
+	position: absolute;
+	top: 1900px;
+	left: 350px;
+	height: 50px;
+	width: 120px;
+	text-align: center;
+	border: ridge;
+	border-radius: 20px;
+	background-color: #8B0000;
+	font-family: 'Satisfy',cursive;
+	font-style: normal;
+	font-size: 20px;
+	color: rgb(255,255,255);
+}
+#sandwich2
+{
+	position: absolute;
+	top: 1970px;
+	left: 350px;
+	height: 50px;
+	width: 120px;
+	text-align: center;
+	border: ridge;
+	border-radius: 20px;
+	background-color: #8B0000;
+	font-family: 'Satisfy',cursive;
+	font-style: normal;
+	font-size: 20px;
+	color: rgb(255,255,255);
+}
+#sandwich3
+{
+	position: absolute;
+	top: 2040px;
+	left: 350px;
+	height: 50px;
+	width: 120px;
+	text-align: center;
+	border: ridge;
+	border-radius: 20px;
+	background-color: #8B0000;
+	font-family: 'Satisfy',cursive;
+	font-style: normal;
+	font-size: 20px;
+	color: rgb(255,255,255);
+}
+#sandwich4
+{
+	position: absolute;
+	top: 2110px;
+	left: 350px;
+	height: 50px;
+	width: 120px;
+	text-align: center;
+	border: ridge;
+	border-radius: 20px;
+	background-color: #8B0000;
+	font-family: 'Satisfy',cursive;
+	font-style: normal;
+	font-size: 20px;
+	color: rgb(255,255,255);
+}
+#Contact
+{
+	position: absolute;
+	top: 2350px;
+	left: 50px;
+	height: 110px;
+	width: 300px;
+	font-size: 18px;
+	color: rgb(255,255,255);
+	/*background-color: blue;*/
+}
+#text
+{
+	position: absolute;
+	top: 2540px;
+	left: 550px;
+	height: 50px;
+	width: 150px;
+	font-size: 25px;
+	font-family: aakar;
+	/*background-color: green;*/
+	color: rgb(255,255,255);
+
+}
+#follow
+{
+	position: absolute;
+	top: 2565px;
+	left: 550px;
+	height: 60px;
+	width: 150px;
+	/*background-color: green;*/
+}
+#Developer
+{
+	position: absolute;
+	top: 2625px;
+	left: 930px;
+	height: 50px;
+	width: 350px;
+	font-size: 20px;
+	font-family: aakar;
+	font-style: italic;
+	/*background-color: green;*/
+	color: rgb(255,255,255);
+}

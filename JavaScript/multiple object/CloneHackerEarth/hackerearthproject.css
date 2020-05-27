@@ -1,0 +1,170 @@
+/*coded by sam@sameer
+email:sams4480@gmail.com
+date:20/02/2020 
+project:clone of hackerearth
+css page*/
+
+#logo
+{
+	position: absolute;
+	top: 20px;
+	left:8px;
+}
+
+
+
+                   #ackerearth
+		{
+			position: absolute;
+			top:0px;
+			left:57px;
+			background-color: none;
+			height: 40px;
+			width: 40px;
+			color: navy-blue;
+			font-family: chandas;
+			font-size: 15px;
+		}
+		#Fordevelopers
+		{
+			position: absolute;
+			top:20px;
+			left: 600px;
+			height: 60px;
+			width: 150px;
+			color: blue;
+			font-family:aakar;
+			font-size: 13px; 
+		}
+		#Forbussinesses
+		{
+			position: absolute;
+			top: 20px;
+			left: 800px;
+			height: 60px;
+			width: 150px;
+			color: blue;
+			font-family: aakar;
+			font-size: 13px;
+		}
+		#login
+		{
+			position: absolute;
+			top: 20px;
+			left: 1000px;
+			height: 40px;
+			width: 40px;
+			color: blue;
+			font-family: aakar;
+			border: 1px solid blue;
+			padding-top:0px;
+			padding-bottom:6px;
+			padding-left: 20px;
+			padding-right:20px; 
+			border-style: padding;
+			font-size: 12px;
+		          border-radius: 3px;
+		}
+		#signup
+		{
+			position: absolute;
+			top: 20px;
+			left: 1100px;
+			height: 40px;
+			width: 40px;
+			color: white;
+			font-family: aakar;
+			border:1px solid blue;
+			border-style: padding;
+			font-size: 12px;
+			padding-top: 0px;
+			padding-bottom: 7px;
+			padding-left: 10px;
+			padding-right: 20px;
+			border-radius: 3px;
+			background-color: rgb(68, 89, 156) ;
+		}
+		#bedeveloper
+		{
+			position: absolute;
+			top: 150px;
+			left: 720px;
+			height: 700px;
+			width: 400px;
+			color: rgb(68, 89, 156);
+			font-family:Proxima Nova Bold;
+			font-size: 3rem;
+			font-weight: bold; 
+
+		}
+		#image
+		{
+			position: absolute;
+			top: 80px;
+			left: 70px;
+			height: 700px;
+			width: 600px;
+			}
+		#subscriber
+		{
+			position: absolute;
+			top:340px;
+			left: 720px;
+			height: 700px;
+			width: 400px;
+			color: rgb(93, 101, 134);
+			font-family:Proxima Nova Bold;
+			
+		}
+		#joinnow
+		{
+			position: absolute;
+			top: 450px;
+			left: 730px;
+			height: 40px;
+			width: 170px;
+			color: white;
+			font-size: 15px;
+			font-family: DejaVu Math TeX Gyre;
+			background-color: rgb(31, 153, 250);
+			text-align: center;
+			padding-top: 20px;
+
+		}
+		#dot
+		{
+			position: absolute;
+			top:650px;
+			left: 550px;
+			color:pink;
+			font-size: 70px;
+		}
+		#dot1
+		{
+			position: absolute;
+			top: 670px;
+			left: 600px;
+			color: pink;
+			font-size: 70px;
+		}
+		#text
+		{
+			position: absolute;
+			top: 780px;
+			left: 300px;
+			color: rgb(36, 62, 142);
+			font-size: 35px;
+			font-family: aakar;
+		}
+		#designed
+		{
+			position: absolute;
+			top: 1000px;
+			left: 0px;
+			width: 100%;
+			color: rgb(36, 62, 142);
+			font-family: aakar;
+			font-size: 20px;
+			color: white;
+			background-color: blue;
+		}

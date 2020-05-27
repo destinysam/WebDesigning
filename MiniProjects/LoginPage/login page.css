@@ -1,0 +1,104 @@
+/*<!-- Coded by sam@sameer*/
+/*date:23/02/2020*/
+/*email:sams44802@gmail.com*/
+/*project:  creating login page */
+/*CSS PAGE*/
+#image
+{
+	position: absolute;
+	height: 0px;
+	width: 0px;
+	top: 0px
+	left:0px;
+	background-image: all;
+}
+#table
+{
+	position: absolute;
+	border:ridge; 
+	top: 150px;
+	left: 440px;
+	height: 400px;
+	width: 400px;
+	border-radius: 40px;
+	text-align: center;
+	font-style: normal;
+	color: rgb(200, 200, 200);
+}
+#text
+{
+	position: absolute;
+	top: 40px;
+	left: 100px;
+	height: 100px;
+	width: 200px;
+	color: rgb(200, 200, 200);
+	font-size: 20px;
+	font-style: normal;
+	font-family: aakar; 
+}
+#username
+{
+	position: absolute;
+	top: 150px;
+	left: 20px;
+	height: 100px;
+	width: 390px;
+	color: rgb(200, 200, 200);
+	font-family: aakar;
+	font-style: normal;
+	font-size: 25px;
+	/*background-color: blue;*/
+}
+#password
+{
+	position: absolute;
+	top: 200px;
+	left: 68px;
+	height: 100px;
+	width: 300px;
+	color: rgb(200, 200, 200);
+	font-family: aakar;
+	font-style: normal;
+	font-size: 25px;
+}
+#forgetpassword
+{
+	position: absolute;
+	top: 250px;
+	left: 0px;
+	height: 50px;
+	width: 150px;
+	color: rgb(200, 200, 200);
+	font-size: 20px;
+	font-family: aakar;
+	font-style: bold;
+	font-size: 20px;
+	/*background-color: green*/
+}
+#login
+{
+	position: absolute;
+	top: 290px;
+	left: 230px;
+	height: 50px;
+	width: 100px;
+	border:ridge;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	padding-top: 6px;
+	background-color: rgb(68, 89, 156);
+}
+#developer
+{
+	position: absolute;
+	top: 445px;
+	left: 555px;
+	height: 70px;
+	width: 300px;
+	font-size: 20px;
+	font-style: italic;
+	color: rgb(200, 200, 200);
+	/*background-color: black;*/
+}

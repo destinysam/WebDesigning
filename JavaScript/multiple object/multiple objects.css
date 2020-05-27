@@ -1,0 +1,33 @@
+#TotalRoomsno
+{
+	position: absolute;
+	left: 500px;
+	top: 250px;
+	height: 120px;
+	width: 175px;
+	background: green;
+	color: blue;
+	font: 30px;
+}
+#BookedRoomsno
+{
+	position: absolute;
+	left: 400px;
+	top: 300px;
+	height: 120px;
+	width: 175px;
+	background: green;
+	color: black;
+	font: 30px;
+}
+#AvailabelRoomsno
+{
+	position: absolute;
+	left: 300px;
+	top: 400px;
+	height: 120px;
+	width: 175px;
+	color: black;
+	font: 30px;
+	background: green;
+}

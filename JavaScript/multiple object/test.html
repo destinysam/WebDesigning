@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>testing</title>
+	<script >
+		let hotel = new object();
+		hotel.TotalRooms = 20;
+		hotel.BookedRooms = 10;
+		hotel.checkavailability = function () {
+			// body...
+			return this.TotalRooms - this.BookedRooms;
+		};
+		// let Trooms = document.getElementById('Total_Roomsno');
+		print(hotel.TotalRooms);
+		// let Brooms = document.getElementById('BookedRoomsno');
+		print(hotel.BookedRooms);
+		// let Arooms = document.getElementById('AvailabelRoomsno');
+		print(hotel.checkavailability());
+	</script>
+</head>
+<body>
+</body>
+</html>
